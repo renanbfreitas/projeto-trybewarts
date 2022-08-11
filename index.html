@@ -23,67 +23,74 @@
             </form>
         </div>
     </div>
-    <main>
-        <form id="evaluation-form" class="form-container">
-            <div id="nomeSobrenome">
-                <input type="text" placeholder="Nome" id="input-name">
-                <input type="text" placeholder="Sobrenome" id="input-lastname">
-            </div>
-            <div id="emailHouse">
-                <input type="email" placeholder="Email" id="input-email">
-                <select id="house">
-                    <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-                    <option id="corvinode-house" value="Corvinode">Corvinode</option>
-                    <option id="pytherina-house" value="Pytherina">Pytherina</option>
-                </select>
-            </div>
-            <div id="radio-container">
-                <label id="label-family"><b>Qual sua família?</b></label>
-                <div>
-                    <input type="radio" name="family" value="Frontend" id="Frontend">
-                    <label for="Frontend"><em>Frontend</em></label>
-                </div>
-                <div>
-                    <input type="radio" name="family" value="Backend" id="Backend">
-                    <label for="Backend"><em>Backend</em></label>
-                </div>
-                <div>
-                    <input type="radio" name="family" value="FullStack" id="FullStack">
-                    <label for="FullStack"><em>FullStack</em></label>
-                </div>
-            </div>
-            <div id="checkbox-container">
-                <p id="label-content"><b>Qual conteúdo você está com mais vontade de aprender?</b></p>
-                <div>
-                    <input type="checkbox" class="subject" value="HoFs" id="HoFs">
-                    <label for="HoFs"><em>HoFs</em></label>
-                </div>
-                <div>
-                    <input type="checkbox" class="subject" value="Jest" id="Jest">
-                    <label for="Jest"><em>Jest</em></label>
-                </div>
-                <div>
-                    <input type="checkbox" class="subject" value="Promises" id="Promises">
-                    <label for="Promises"><em>Promises</em></label>
-                </div>
-                <div>
-                    <input type="checkbox" class="subject" value="React" id="React">
-                    <label for="React"><em>React</em></label>
-                </div>
-                <div>
-                    <input type="checkbox" class="subject" value="SQL" id="SQL">
-                    <label for="SQL"><em>SQL</em></label>
-                </div>
-                <div>
-                    <input type="checkbox" class="subject" value="Python" id="Phyton">
-                    <label for="Phyton"><em>Python</em></label>
-                </div>
-            </div>
-        </form>
-        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" height="500px" alt="Logo Colorida">
-    </main>
 </header>
+<main>
+    <form id="evaluation-form" class="form-container">
+        <div id="nomeSobrenome">
+            <input type="text" placeholder="Nome" id="input-name">
+            <input type="text" placeholder="Sobrenome" id="input-lastname">
+        </div>
+        <div id="emailHouse">
+            <input type="email" placeholder="Email" id="input-email">
+            <select id="house">
+                <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                <option id="pytherina-house" value="Pytherina">Pytherina</option>
+            </select>
+        </div>
+        <div id="radio-container">
+            <label id="label-family"><b>Qual sua família?</b></label>
+            <div>
+                <input type="radio" name="family" value="Frontend" id="Frontend">
+                <label for="Frontend"><em>Frontend</em></label>
+            </div>
+            <div>
+                <input type="radio" name="family" value="Backend" id="Backend">
+                <label for="Backend"><em>Backend</em></label>
+            </div>
+            <div>
+                <input type="radio" name="family" value="FullStack" id="FullStack">
+                <label for="FullStack"><em>FullStack</em></label>
+            </div>
+        </div>
+        <div id="checkbox-container">
+            <p id="label-content"><b>Qual conteúdo você está com mais vontade de aprender?</b></p>
+            <div>
+                <input type="checkbox" class="subject" value="HoFs" id="HoFs">
+                <label for="HoFs"><em>HoFs</em></label>
+            </div>
+            <div>
+                <input type="checkbox" class="subject" value="Jest" id="Jest">
+                <label for="Jest"><em>Jest</em></label>
+            </div>
+            <div>
+                <input type="checkbox" class="subject" value="Promises" id="Promises">
+                <label for="Promises"><em>Promises</em></label>
+            </div>
+            <div>
+                <input type="checkbox" class="subject" value="React" id="React">
+                <label for="React"><em>React</em></label>
+            </div>
+            <div>
+                <input type="checkbox" class="subject" value="SQL" id="SQL">
+                <label for="SQL"><em>SQL</em></label>
+            </div>
+            <div>
+                <input type="checkbox" class="subject" value="Python" id="Phyton">
+                <label for="Phyton"><em>Python</em></label>
+            </div>
+        </div>
+        <div>
+            <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
+            <input type="checkbox" id="agreement">
+        </div>
+        <div>
+            <button type="submit" id="submit-btn" disabled>Enviar</button>
+        </div>
+    </form>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" height="500px" alt="Logo Colorida">
+</main>
 <script src="script.js"></script>
 </body>
 
