@@ -23,6 +23,7 @@
             </form>
         </div>
     </div>
+    </div>
 </header>
 <main>
     <form id="evaluation-form" class="form-container">
@@ -81,10 +82,31 @@
                 <label for="Phyton"><em>Python</em></label>
             </div>
         </div>
-        <div>
-            <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
-            <input type="checkbox" id="agreement">
+        <div class="avaliacao">
+            <label id="label-rate">
+                <b>Como você avalia a Trybewarts?</b>
+                <br>
+                <input type="radio" name="rate" value="1">1
+                <input type="radio" name="rate" value="2">2
+                <input type="radio" name="rate" value="3">3
+                <input type="radio" name="rate" value="4">4
+                <input type="radio" name="rate" value="5">5
+                <input type="radio" name="rate" value="6">6
+                <input type="radio" name="rate" value="7">7
+                <input type="radio" name="rate" value="8">8
+                <input type="radio" name="rate" value="9">9
+                <input type="radio" name="rate" value="10">10
+            </label>
         </div>
+        <div>
+            <label for="textarea" class="textarea">
+                <b>Deixe seu comentário</b></label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+        </div>
+        <br>
+        <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
+            <input type="checkbox" name="agreement" id="agreement">
+        </label>
         <div>
             <button type="submit" id="submit-btn" disabled>Enviar</button>
         </div>
