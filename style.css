@@ -30,3 +30,15 @@ main {
 #trybewarts-forms-logo {
   margin-right: 100px;
 }
+
+#nomeSobrenome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#emailHouse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
