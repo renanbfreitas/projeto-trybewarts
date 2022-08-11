@@ -13,8 +13,8 @@ function verificaEmailESenha() {
 buttonLogin.addEventListener('click', verificaEmailESenha);
 
 // https://stackoverflow.com/questions/18110865/how-to-disable-enable-a-button-with-a-checkbox-if-checked
-agreement.onchange = function (){
-  if (this.checked){
+agreement.onchange = function () {
+  if (this.checked) {
     buttonSubmit.disabled = false;
   } else {
     buttonSubmit.disabled = true;
