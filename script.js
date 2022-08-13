@@ -20,3 +20,8 @@ agreement.onchange = function enableDisable() {
     buttonSubmit.disabled = true;
   }
 };
+
+document.getElementById('textarea').addEventListener('input', (event) => {
+  const counter = document.getElementById('counter');
+  counter.innerText = 500 - Number(event.target.value.length);
+});
