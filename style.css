@@ -1,44 +1,52 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
-.trybewarts-login {
+header .trybewarts-login {
   display: flex;
+}
+
+header .trybewarts-login input {
+  margin-right: 10px;
+}
+
+.header h1 {
+  color: white;
 }
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('https://static2.srcdn.com/wordpress/wp-content/uploads/2018/12/hp-timeline-4.jpg');
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(21, 20, 20, 0.79);
+  background-size: cover;
+  color: white;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+#Familia {
+  display: flex;
+  flex-direction: column;
+}
+
+#Familia div {
+  margin-right: 10px;
+}
+
+footer {
+  display: flex;
   justify-content: center;
+  background-color: rgb(50, 167, 145);
 }
 
-#trybewarts-forms-logo {
-  margin-right: 100px;
-}
-
-#nomeSobrenome {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#emailHouse {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
