@@ -21,24 +21,7 @@ agreement.onchange = function enableDisable() {
   }
 };
 
-const obs = document.getElementById('textarea');
-document.getElementById('textarea').addEventListener('input', () => {
-  const textArea = document.getElementById('textarea');
-  const maxTamanho = 500;
-  pCont.innerText = maxTamanho - textArea.value.length;
-});
-
-const form = document.getElementById('form-data');
-btnEnviar.addEventListener('click', (e) => {
-  append(form, `Nome: ${nome.value} ${sobrenome.value}`);
-  append(form, `Email: ${email.value}`);
-  append(form, `Casa: ${casa.value}`);
-  append(form, `Família: ${elementoRadio(família)}`);
-  append(form, `Matérias: ${checkends(content)}`);
-  append(form, `Avaliação: ${elementoRadio(nota)}`);
-  append(form, `Observações: ${obs.value}`);
-
-  console.log(nome.value, sobreNome.value);
-  form.style.display = 'none'
-  e.preventDefault();
+document.getElementById('textarea').addEventListener('input', (event) => {
+  const counter = document.getElementById('counter');
+  counter.innerText = 500 - Number(event.target.value.length);
 });
