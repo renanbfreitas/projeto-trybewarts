@@ -27,22 +27,22 @@
 </header>
 
 <main>
-
+    <div id="form-data"></div>
     <form id="evaluation-form" class="form-container">
         <fieldset>
             <legend>Formulário de Inscrição</legend>
             <div id="Nome-Sobrenome" class="row mb-4">
                 <div class="col">
-                    <input type="text" placeholder="Nome" id="input-name" class="form-control">
+                    <input type="text" placeholder="Nome" id="input-name" class="form-control nome">
                 </div>
                 <div class="col">
-                    <input type="text" placeholder="Sobrenome" id="input-lastname" class="form-control">
+                    <input type="text" placeholder="Sobrenome" id="input-lastname" class="form-control sobrenome">
                 </div>
             </div>
 
             <div id="Email-Casa" class="row mb-4">
                 <div class="col">
-                    <input type="email" placeholder="Email" id="input-email" class="form-control">
+                    <input type="email" placeholder="Email" id="input-email" class="form-control email">
                 </div>
                 <div class="col">
                     <select id="house" class="form-select">
@@ -56,21 +56,21 @@
 
             <div id="Familia">
                 <label id="label-family" class="form-check-label"><b>Qual sua família?</b></label>
-
+                <br>
                 <div>
-                    <input type="radio" name="family" value="Frontend" id="Frontend" class="form-check-input">
+                    <input type="radio" name="family" value="Frontend" id="Frontend" class="form-check-input radio">
                     <label for="Frontend" class="form-check-label">Frontend</label>
                 </div>
 
                 <div>
-                    <input type="radio" name="family" value="Backend" id="Backend" class="form-check-input">
+                    <input type="radio" name="family" value="Backend" id="Backend" class="form-check-input radio">
                     <label for="Backend" class="form-check-label">Backend</label>
                 </div>
                 <div>
-                    <input type="radio" name="family" value="FullStack" id="FullStack" class="form-check-input">
+                    <input type="radio" name="family" value="FullStack" id="FullStack" class="form-check-input radio">
                     <label for="FullStack" class="form-check-label">FullStack</label>
                 </div>
-
+                <br>
             </div>
 
             <div id="Conteudo">
@@ -106,20 +106,21 @@
                         <label for="Phyton"><em>Python</em></label>
                     </div>
                 </div>
+                <br>
             </div>
             <label id="label-rate">
                 <b>Como você avalia a Trybewarts?</b>
                 <br>
-                <input type="radio" name="rate" value="1">1
-                <input type="radio" name="rate" value="2">2
-                <input type="radio" name="rate" value="3">3
-                <input type="radio" name="rate" value="4">4
-                <input type="radio" name="rate" value="5">5
-                <input type="radio" name="rate" value="6">6
-                <input type="radio" name="rate" value="7">7
-                <input type="radio" name="rate" value="8">8
-                <input type="radio" name="rate" value="9">9
-                <input type="radio" name="rate" value="10">10
+                <input type="radio" name="rate" value="1" class="avalicao">1
+                <input type="radio" name="rate" value="2" class="avalicao">2
+                <input type="radio" name="rate" value="3" class="avalicao">3
+                <input type="radio" name="rate" value="4" class="avalicao">4
+                <input type="radio" name="rate" value="5" class="avalicao">5
+                <input type="radio" name="rate" value="6" class="avalicao">6
+                <input type="radio" name="rate" value="7" class="avalicao">7
+                <input type="radio" name="rate" value="8" class="avalicao">8
+                <input type="radio" name="rate" value="9" class="avalicao">9
+                <input type="radio" name="rate" value="10" class="avalicao">10
             </label>
             <br>
             <label for="textarea" class="textarea">
