@@ -33,6 +33,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-or
 <img src="https://img.shields.io/static/v1?label=Equipe&message=Dupla&color=brown&style=for-the-badge&logo=github"/>
 
 ### <b> <a href="https://github.com/mAngelo-dev">Miguel Angelo</a> </b> <br>
+### <b> <a href="https://github.com/renanbfreitas">Renan Freitas</a> </b> <br>
 
 </p>
 
